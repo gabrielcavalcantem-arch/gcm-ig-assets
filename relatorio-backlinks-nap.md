@@ -115,6 +115,49 @@ Use o NAP canônico **idêntico**, e complete com:
 
 ---
 
+## 📦 Pacote pronto para copiar e colar (mesmo texto em todos os 30)
+
+> As descrições estão em **inglês** porque os clientes e diretórios são dos EUA. Cole o mesmo texto em todo cadastro que tiver o campo correspondente.
+
+### Descrição longa (~750 caracteres — Google Business, Yelp, BBB, Houzz, etc.)
+
+```
+GCM Best Services Corp is a locally owned paving contractor serving Orlando, Kissimmee, and Central Florida. We design and install paver driveways, patios, walkways, and pool decks that boost curb appeal and property value. Our team handles every step — from base preparation and grading to precise paver laying, edging, and sealing — using quality materials built to last in Florida's climate. Whether you want a herringbone driveway, an elegant patio, or a custom outdoor living space, we deliver clean, durable results and dependable service. We take pride in craftsmanship, fair pricing, and treating every property like our own. Call GCM Best Services Corp at (407) 250-1948 for a free estimate.
+```
+
+### Descrição curta (~150 caracteres — para campos pequenos)
+
+```
+Paver driveways, patios & walkways in Orlando and Central Florida. Quality installation, durable results, free estimates. Call (407) 250-1948.
+```
+
+### Categorias (use as mesmas onde existir a opção)
+
+- **Principal:** `Paving Contractor`
+- **Secundárias:** `Concrete Contractor`, `Landscaper`, `Patio Enclosure Supplier`
+
+### Área de atendimento (mesma lista em todos)
+
+```
+Orlando, Kissimmee, Winter Park, Winter Garden, Lake Nona, Dr. Phillips,
+Windermere, Apopka, Ocoee, Clermont, St. Cloud, Sanford — Central Florida
+```
+
+### Horário sugerido (ajuste ao seu real e mantenha igual em todos)
+
+```
+Monday–Saturday: 8:00 AM – 6:00 PM
+Sunday: Closed
+```
+
+### Fotos a usar (já no repositório)
+
+- `driveway_finished_ig.jpg` — resultado final (capa)
+- `driveway_ig.jpg` — destaque
+- `driveway_wip.jpg` — trabalho em andamento (mostra processo/profissionalismo)
+
+---
+
 ## 📋 Plano de execução sugerido
 
 1. **Semana 1:** Tier 1 (#1–8) — base do SEO local.
