@@ -28,7 +28,7 @@ O Google cruza **N**ome + **A**ddress + **P**hone entre todas as suas citações
 |---|---|
 | **Name (Nome)** | `GCM Best Services Corp` |
 | **Address (Endereço)** | `7914 Tumblestone Drive, Orlando, FL 32819` |
-| **Phone (Telefone)** | `[PREENCHER — ex: (407) 555-1234]` ← use **um único** número e **um único** formato |
+| **Phone (Telefone)** | `(407) 250-1948` ← use **sempre** este número e este formato |
 | **Website** | `https://gcmbestservicescorp.com` |
 | **Categoria principal** | `Paving Contractor` |
 | **Categorias secundárias** | `Concrete Contractor`, `Landscaper` / `Patio Enclosure Supplier` |
@@ -37,7 +37,7 @@ O Google cruza **N**ome + **A**ddress + **P**hone entre todas as suas citações
 
 1. **Negócio sem loja física (Service Area Business):** pavimentação é serviço prestado no endereço do cliente. No **Google Business Profile**, registre o endereço acima mas **marque "Não atendo clientes no meu endereço"** para ocultá-lo, e defina a **área de atendimento** (Orlando, Kissimmee, Winter Park, Lake Nona, Dr. Phillips, etc.). Nos demais diretórios, mantenha o endereço **consistente** mesmo quando oculto.
 2. **Nome:** não adicione palavra-chave ("GCM Pavers Orlando") no nome — viola as diretrizes do Google e gera inconsistência. Use o nome legal `GCM Best Services Corp` em todo lugar.
-3. **Telefone:** prefira um número local de Orlando (DDD 407/321/689). Use o **mesmo** em todos — incluindo no rodapé do site, em formato idêntico.
+3. **Telefone:** `(407) 250-1948` (número local de Orlando). Use o **mesmo** em todos — incluindo no rodapé do site, em formato idêntico `(407) 250-1948`.
 
 ---
 
@@ -129,6 +129,6 @@ Use o NAP canônico **idêntico**, e complete com:
 
 ### Observações sobre dados
 
-- **Telefone:** não estava público; preencha o campo no NAP canônico antes de iniciar os cadastros.
+- **Telefone:** `(407) 250-1948` (número local de Orlando), informado pelo proprietário.
 - **Endereço:** conforme registro na Sunbiz (Divisão de Corporações da Flórida), doc. `P22000086622`.
 - **Backlinks reais via Semrush:** o plano atual da conta não inclui acesso à API/MCP do Semrush, então este relatório usa as fontes de maior autoridade para o nicho de pavimentação em vez de um crawl ao vivo. Para análise do perfil de links real (seu e de concorrentes), seria necessário um plano com acesso MCP em semrush.com/mcp-access.
