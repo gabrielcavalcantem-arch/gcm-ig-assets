@@ -170,8 +170,10 @@ Sunday: Closed
 
 ---
 
-### Observações sobre dados
+### Observações sobre dados (atualizado 2026-06-11)
 
 - **Telefone:** `(407) 250-1948` (número local de Orlando), informado pelo proprietário.
 - **Endereço:** conforme registro na Sunbiz (Divisão de Corporações da Flórida), doc. `P22000086622`.
-- **Backlinks reais via Semrush:** o plano atual da conta não inclui acesso à API/MCP do Semrush, então este relatório usa as fontes de maior autoridade para o nicho de pavimentação em vez de um crawl ao vivo. Para análise do perfil de links real (seu e de concorrentes), seria necessário um plano com acesso MCP em semrush.com/mcp-access.
+- **Backlinks reais via Semrush:** tentei puxar dados ao vivo pelo Semrush MCP nesta atualização, mas **o plano atual da conta continua sem acesso MCP** — tanto o relatório de backlinks quanto o de overview retornaram bloqueio de plano. Por isso a lista acima segue baseada nas fontes de maior autoridade do nicho, não em um crawl ao vivo. Para liberar autoridade de domínio, gap de keywords e perfil de links de concorrentes, é preciso um plano com acesso MCP em **semrush.com/mcp-access**.
+- **Search Console / Google My Business:** **não estão conectados** no Windsor.ai (o único conector ativo hoje é o **Instagram**). Conectar o **Google Search Console** e o **Google Business Profile** desbloqueia a auditoria de buscas reais (queries, impressões, posição no Map Pack) — recomendado fazer assim que o GBP estiver verificado.
+- **Instagram:** conectado e analisado — ver `seo/diagnostico-instagram.md` (dados reais de audiência e performance).
