@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "@id": "https://gcmbestservicescorp.com/#business",
+  "name": "GCM Best Services Corp",
+  "image": "https://gcmbestservicescorp.com/images/driveway_finished_ig.jpg",
+  "url": "https://gcmbestservicescorp.com",
+  "telephone": "+14072501948",
+  "priceRange": "$$",
+  "description": "Locally owned paving contractor serving Orlando, Kissimmee, and Central Florida. We design and install paver driveways, patios, walkways, and pool decks.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7914 Tumblestone Drive",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32819",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.4499,
+    "longitude": -81.4710
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Orlando" },
+    { "@type": "City", "name": "Kissimmee" },
+    { "@type": "City", "name": "Winter Park" },
+    { "@type": "City", "name": "Winter Garden" },
+    { "@type": "City", "name": "Windermere" },
+    { "@type": "City", "name": "Dr. Phillips" },
+    { "@type": "City", "name": "Lake Nona" },
+    { "@type": "City", "name": "Clermont" },
+    { "@type": "City", "name": "St. Cloud" },
+    { "@type": "City", "name": "Sanford" }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Paving Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paver Driveway Installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paver Patio Installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paver Walkway Installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pool Deck Pavers" } }
+    ]
+  },
+  "sameAs": [
+    "https://www.facebook.com/REPLACE_WITH_YOUR_PAGE",
+    "https://www.instagram.com/REPLACE_WITH_YOUR_PROFILE",
+    "https://www.yelp.com/biz/REPLACE_WITH_YOUR_LISTING"
+  ]
+}
