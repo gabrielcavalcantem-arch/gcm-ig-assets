@@ -37,3 +37,27 @@ O site **já tem a estrutura certa de páginas**:
 ## Conclusão p/ a nota
 - Confirma **Site/On-page = 4,0** e **Backlinks = 4,0** (os dados batem).
 - O que segura a presença hoje é 100% o **Google Business Profile** (por isso ele é tão importante manter forte).
+
+---
+
+## 🤖 Visibilidade em Busca por IA (AEO/GEO) — 01/nov
+
+| Sinal (Semrush) | Valor | Leitura |
+|---|---|---|
+| AI Overview (Google) | **3 keywords** | Aparece, mas nível de marca |
+| Knowledge panel | 15 | IA acha a GCM em buscas de marca ✅ |
+| Reviews / Local pack | 16 / 1 | Perfil do Google é a fonte |
+
+**Veredito:**
+- 🟢 **Pergunta de marca** ("fale sobre a GCM Best Services") → a IA **acha** (perfil + 4,9★).
+- 🔴 **Pergunta genérica** ("melhor empresa de pavers em Orlando") → **invisível**; a IA cita concorrentes (New Way, Pavers of Florida, Venture, Matao, King Pavers) e diretórios (Angi, HomeAdvisor, Houzz, Yelp, BBB, thebuildermarket).
+
+**Por quê:** as IAs respondem a partir de **diretórios + listas "best of"**. A GCM não está nessas fontes.
+
+**O que destrava (= mesma lista de citações):**
+1. Finalizar **Thumbtack**; criar **Yelp, Angi, HomeAdvisor, Houzz, BBB** (com reviews).
+2. Entrar em listas "best paver companies Orlando".
+3. **Schema + NAP consistente** p/ a IA reconhecer a entidade.
+4. Reviews em múltiplas plataformas (a IA pesa volume e consistência).
+
+> Nota: resolver backlinks/citações e resolver busca por IA é **o mesmo trabalho** — os diretórios que dão autoridade são as fontes que as IAs citam.
