@@ -9,7 +9,7 @@
 | 2 | `WhatsApp` | `https://wa.me/14072501948` | pronto |
 | 3 | `Pinterest` | `https://www.pinterest.com/gcmbestservicescorp` | pronto |
 | 4 | `Website` | `https://gcmbestservicescorp.com` | pronto |
-| 5 | `Google Reviews` | ⚠️ gerar depois que o Google Business Profile for verificado (`g.page/r/...`) | pendente |
+| 5 | `Google Reviews` | `https://share.google/FhEOZOjWx2aEzAC9m` | ⚠️ testar se abre a caixa de estrelas, então adicionar |
 
 > Candidato alternativo pro 5º slot: **Thumbtack** — pegar a URL pública (Share profile) e adicionar como `Thumbtack`.
 

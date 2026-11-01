@@ -14,6 +14,7 @@
 | **WhatsApp** | `https://wa.me/14072501948` |
 | **Registro (Sunbiz)** | Doc. `P22000086622` · GCM Best Services Corp |
 | **Categoria principal** | `Paving Contractor` |
+| **Link Google Reviews** | `https://share.google/FhEOZOjWx2aEzAC9m` *(testar caixa de estrelas)* |
 
 ---
 
