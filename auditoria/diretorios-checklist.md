@@ -30,9 +30,24 @@
 | 4 | **Houzz** | 🟡 Reivindicar | Aparece em categoria; claim o perfil |
 | 5 | **BBB** | 🟡 Enviado · aguardando análise | Submetido em 01/nov. ⚠️ Ao publicar, conferir se o NAP enviado bate com o canônico (nome c/ "Corp", tel, endereço, site). |
 | — | **Angi / HomeAdvisor** | 🔴 Bloqueado (segurança) | Tentativa via agente barrada por verificação. Fazer manualmente. |
-| 6 | **Bing Places** | 🔴 Criar | Fácil via Google |
+| 6 | **Bing Places** | 🟡 Em andamento (agente/codex) | Import do Google Business. ⚠️ Conferir NAP ao concluir. Alimenta Bing → ajuda busca por IA (ChatGPT). |
 | 7 | **Apple Business Connect** | 🔴 Criar | Apple Maps |
 | 8 | **Nextdoor Business** | 🔴 Criar | Hiperlocal |
 | 9 | **Thumbtack** | 🟡 Finalizar | Existe · 0 reviews · setup incompleto |
 
 > Marcar ✅ conforme for fazendo. Lembrar: **NAP idêntico** em todos.
+
+## 📌 Andamento (01/nov) — fonte única da verdade
+Vários agentes trabalhando em paralelo (ChatGPT, codex). Status consolidado:
+- ✅ **Google, Instagram, Pinterest, Facebook** — prontos
+- 🟡 **Yelp** — existe, ajustar (nome+"Corp", ocultar endereço, finish setup)
+- 🟡 **BBB** — enviado, aguardando análise
+- 🟡 **Bing Places** — em andamento (import do Google)
+- 🟡 **Thumbtack** — existe, finalizar + (não pedir review no Yelp)
+- 🔴 **Angi / HomeAdvisor** — bloqueado por verificação; fazer manual (ligam p/ confirmar)
+- 🔴 **Apple Business Connect, Nextdoor** — criar
+
+### ⚠️ Regra para QUALQUER agente/cadastro
+Todo cadastro novo DEVE usar o NAP canônico exato. Ao concluir, **conferir**:
+`GCM Best Services Corp · 7914 Tumblestone Dr, Orlando, FL 32819 · (407) 250-1948 · https://gcmbestservicescorp.com`
+Divergência (ex.: sem "Corp", telefone com formato diferente) = corrigir antes de seguir.
