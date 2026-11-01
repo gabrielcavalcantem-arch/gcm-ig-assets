@@ -108,7 +108,7 @@ Coexistem dois nomes/domínios:
 |---|---|---|
 | 📍 Google Business Profile | **8,0** | ✅ Verificado, 4,9⭐, 124 interações, "Tudo certo". Falta otimização fina. |
 | ⭐ Avaliações | **8,0** | 4,9⭐ no Google. Manter o fluxo de pedidos. |
-| 📱 Instagram / Social | **7,0** | 715 seg., 30K views/30d, público certo. Bio + save/share a melhorar. |
+| 📱 Instagram / Social | **7,5** | Perfil 100% otimizado (bio + 5 links). Teto preso no conteúdo: save/share baixo, pouca Reel. Pulo p/ 8,5–9 vem do conteúdo. |
 | 🧩 NAP / Consistência | **6,0** | Muito melhor hoje; falta unificar marca e capturar URLs. |
 | 📌 Pinterest | **6,0** | Corrigido; pouco tráfego ainda. |
 | 🌐 Site / On-page | **4,0** | Schema não publicado, http/https, sem Search Console. |
