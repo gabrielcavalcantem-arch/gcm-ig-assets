@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  @page{ size:A4; margin:14mm 14mm 12mm; }
+  :root{
+    --bg:#ffffff; --surface:#faf8f3; --fg:#1d1a15; --muted:#6c6557; --line:#e2dccf;
+    --accent:#b2832c; --accent-soft:#eadbbb;
+    --good:#2f8d5b; --good-bg:#dceee3;
+    --warn:#c47d1b; --warn-bg:#f4e6cf;
+    --low:#c0532f; --low-bg:#f3ddd2;
+    --idle:#8d8678; --idle-bg:#e8e3d8;
+    --track:#e7e1d4;
+  }
+  *{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:"IBM Plex Sans",system-ui,sans-serif;line-height:1.45;font-size:11px}
+  .num{font-variant-numeric:tabular-nums}
+  header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;border-bottom:3px solid var(--accent);padding-bottom:10px}
+  .eyebrow{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:8.5px;font-weight:600;color:var(--accent)}
+  h1{font-family:"Oswald",sans-serif;font-weight:700;font-size:25px;line-height:1;margin:3px 0 2px}
+  .sub{color:var(--muted);font-size:10px;max-width:62ch}
+  .brandbox{text-align:right;font-family:"Oswald",sans-serif;font-size:9px;color:var(--muted);line-height:1.3;white-space:nowrap}
+  h2{font-family:"Oswald",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.1em;font-size:10px;color:var(--muted);margin:11px 0 7px}
+
+  .hero{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px 18px;margin-top:11px}
+  .heroLabel{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:9px;font-weight:600;color:var(--accent);margin-bottom:8px}
+  .evo{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .evoSide{text-align:center;line-height:1}
+  .evoCap{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted);margin-bottom:3px}
+  .evoWas{font-family:"Oswald",sans-serif;font-weight:600;font-size:38px;color:var(--idle)}
+  .evoNow{font-family:"Oswald",sans-serif;font-weight:700;font-size:54px;color:var(--accent);line-height:.82}
+  .arrow{font-family:"Oswald",sans-serif;font-weight:700;font-size:34px;color:var(--good)}
+  .pct{display:flex;flex-direction:column;gap:4px;margin-left:6px}
+  .pctBig{font-family:"Oswald",sans-serif;font-weight:700;font-size:26px;color:var(--good);line-height:.9}
+  .pctNote{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.05em;font-size:8.5px;color:var(--muted)}
+  .ofTen{font-family:"Oswald",sans-serif;font-size:11px;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+  .track{position:relative;height:12px;border-radius:999px;background:var(--track);margin-top:11px;overflow:hidden}
+  .fillWas{position:absolute;inset:0 55% 0 0;background:var(--idle);opacity:.4;border-radius:999px}
+  .fill{position:absolute;inset:0 25% 0 0;background:linear-gradient(90deg,var(--accent-soft),var(--accent));border-radius:999px}
+  .trackMarks{display:flex;justify-content:space-between;font-size:8px;color:var(--muted);margin-top:3px;font-variant-numeric:tabular-nums}
+  .heroNote{font-size:9.5px;color:var(--muted);margin-top:9px;border-top:1px solid var(--line);padding-top:8px}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:9px}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;text-align:center}
+  .stat.hl{background:var(--accent);border-color:var(--accent)}
+  .statNum{font-family:"Oswald",sans-serif;font-weight:700;font-size:23px;color:var(--accent);line-height:1}
+  .stat.hl .statNum{color:#fff}
+  .statLbl{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.05em;font-size:8px;color:var(--muted);margin-top:4px}
+  .stat.hl .statLbl{color:rgba(255,255,255,.85)}
+  .delivered{margin-top:9px}
+  .delLbl{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:9px;color:var(--muted);margin-bottom:6px}
+  .chips2{display:flex;flex-wrap:wrap;gap:6px}
+  .doneChip{display:inline-flex;align-items:center;gap:4px;background:var(--good-bg);color:var(--good);font-size:8.6px;font-weight:600;padding:3px 9px;border-radius:999px}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .bars{display:flex;flex-direction:column;gap:6px}
+  .barHead{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .barName{font-weight:600;font-size:10.5px}
+  .barVal{font-family:"Oswald",sans-serif;font-weight:600;font-size:11px}
+  .barTrack{height:9px;border-radius:999px;background:var(--track);overflow:hidden;margin-top:3px}
+  .barFill{height:100%;border-radius:999px}
+  .g .barVal{color:var(--good)} .g .barFill{background:var(--good)}
+  .w .barVal{color:var(--warn)} .w .barFill{background:var(--warn)}
+  .l .barVal{color:var(--low)} .l .barFill{background:var(--low)}
+
+  .plats{display:flex;flex-direction:column;gap:5px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:6px 11px}
+  .cardTop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .plat{font-family:"Oswald",sans-serif;font-weight:600;font-size:11px}
+  .pill{font-family:"Oswald",sans-serif;font-weight:600;font-size:7.5px;letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap}
+  .pill.good{background:var(--good-bg);color:var(--good)}
+  .pill.warn{background:var(--warn-bg);color:var(--warn)}
+  .pill.idle{background:var(--idle-bg);color:var(--idle)}
+  .cardNote{font-size:8.8px;color:var(--muted);margin-top:2px}
+
+  .next{margin-top:9px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:9px 14px}
+  .next ol{margin:4px 0 0;padding-left:16px;display:flex;flex-direction:column;gap:4px;font-size:10px}
+  .next li::marker{color:var(--accent);font-weight:700}
+  .legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;font-size:8.5px;color:var(--muted)}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .dot{width:9px;height:9px;border-radius:2px;display:inline-block}
+  footer{margin-top:10px;border-top:1px solid var(--line);padding-top:6px;font-size:8.5px;color:var(--muted);display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="eyebrow">Relatório de presença digital · 01 nov 2026</div>
+      <h1>GCM Best Services Corp</h1>
+      <div class="sub">Scorecard de SEO local e presença digital. Resumo da evolução e do estado de cada plataforma — com números honestos: o que já é força e o que ainda é oportunidade.</div>
+    </div>
+    <div class="brandbox">ORLANDO &amp; CENTRAL FLORIDA<br>(407) 250-1948<br>gcmbestservicescorp.com</div>
+  </header>
+
+  <div class="hero">
+    <div class="heroLabel">Evolução em ~25 horas de trabalho</div>
+    <div class="evo">
+      <div class="evoSide"><div class="evoCap">Antes</div><div class="evoWas num">4,5</div></div>
+      <div class="arrow">→</div>
+      <div class="evoSide"><div class="evoCap">Agora</div><div class="evoNow num">7,5</div><div class="ofTen">/ 10 · nota geral</div></div>
+      <div class="pct">
+        <div class="pctBig num">+67%</div>
+        <div class="pctNote">de evolução<br>(+3,0 pontos)</div>
+      </div>
+    </div>
+    <div class="track"><div class="fillWas"></div><div class="fill"></div></div>
+    <div class="trackMarks"><span>0</span><span>◁ antes 4,5</span><span>agora 7,5 ▷</span><span>10</span></div>
+    <div class="heroNote">O salto veio ao confirmar que o <strong>Google Business Profile já existe e está forte</strong> — verificado, 4,9★ com 46 avaliações — somado às correções de NAP, Instagram, Pinterest e Thumbtack feitas neste período.</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat hl"><div class="statNum num">~25h</div><div class="statLbl">Trabalho dedicado</div></div>
+    <div class="stat"><div class="statNum num">31/out</div><div class="statLbl">Início · 10h</div></div>
+    <div class="stat"><div class="statNum num">5</div><div class="statLbl">Plataformas ativas</div></div>
+    <div class="stat"><div class="statNum num">4,9★</div><div class="statLbl">46 avaliações Google</div></div>
+  </div>
+
+  <div class="delivered">
+    <div class="delLbl">Entregue nesta sprint</div>
+    <div class="chips2">
+      <span class="doneChip">✓ Google Business confirmado (4,9★ · 46 avaliações)</span>
+      <span class="doneChip">✓ Instagram 100% otimizado (bio + 5 links)</span>
+      <span class="doneChip">✓ Link de avaliação ativo</span>
+      <span class="doneChip">✓ Pinterest corrigido e otimizado</span>
+      <span class="doneChip">✓ Thumbtack: nome + foto corrigidos</span>
+      <span class="doneChip">✓ NAP padronizado em todos os perfis</span>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div>
+      <h2>Nota por área</h2>
+      <div class="bars">
+        <div class="bar g"><div class="barHead"><span class="barName">Avaliações (Google)</span><span class="barVal num">9,0</span></div><div class="barTrack"><div class="barFill" style="width:90%"></div></div></div>
+        <div class="bar g"><div class="barHead"><span class="barName">Google Business Profile</span><span class="barVal num">8,5</span></div><div class="barTrack"><div class="barFill" style="width:85%"></div></div></div>
+        <div class="bar g"><div class="barHead"><span class="barName">Instagram / Social</span><span class="barVal num">7,0</span></div><div class="barTrack"><div class="barFill" style="width:70%"></div></div></div>
+        <div class="bar w"><div class="barHead"><span class="barName">NAP / Consistência</span><span class="barVal num">6,5</span></div><div class="barTrack"><div class="barFill" style="width:65%"></div></div></div>
+        <div class="bar w"><div class="barHead"><span class="barName">Pinterest</span><span class="barVal num">6,0</span></div><div class="barTrack"><div class="barFill" style="width:60%"></div></div></div>
+        <div class="bar l"><div class="barHead"><span class="barName">Site / On-page</span><span class="barVal num">4,0</span></div><div class="barTrack"><div class="barFill" style="width:40%"></div></div></div>
+        <div class="bar l"><div class="barHead"><span class="barName">Backlinks / Citações</span><span class="barVal num">4,0</span></div><div class="barTrack"><div class="barFill" style="width:40%"></div></div></div>
+      </div>
+      <div class="legend">
+        <span><i class="dot" style="background:var(--good)"></i>Força (≥7)</span>
+        <span><i class="dot" style="background:var(--warn)"></i>Em progresso (4–7)</span>
+        <span><i class="dot" style="background:var(--low)"></i>Prioridade (&lt;4)</span>
+        <span><i class="dot" style="background:var(--idle)"></i>Não iniciado</span>
+      </div>
+    </div>
+
+    <div>
+      <h2>Status por plataforma</h2>
+      <div class="plats">
+        <div class="card"><div class="cardTop"><span class="plat">Google Business</span><span class="pill good">Forte</span></div><div class="cardNote">Verificado · 4,9★ · 46 avaliações · 124 interações</div></div>
+        <div class="card"><div class="cardTop"><span class="plat">Instagram</span><span class="pill good">Otimizado</span></div><div class="cardNote">Bio + 5 links prontos · 715 seg · 30 mil views/30d</div></div>
+        <div class="card"><div class="cardTop"><span class="plat">Pinterest</span><span class="pill good">Otimizado</span></div><div class="cardNote">Perfil, usuário e bio corrigidos · pins com SEO</div></div>
+        <div class="card"><div class="cardTop"><span class="plat">Thumbtack</span><span class="pill warn">Em andamento</span></div><div class="cardNote">Perfil e nome ok · 0 avaliações lá · setup a finalizar</div></div>
+        <div class="card"><div class="cardTop"><span class="plat">Site</span><span class="pill warn">Ajustar</span></div><div class="cardNote">Falta schema, https e Search Console</div></div>
+        <div class="card"><div class="cardTop"><span class="plat">Yelp</span><span class="pill idle">Não iniciado</span></div><div class="cardNote">Ainda não criado/confirmado — oportunidade</div></div>
+        <div class="card"><div class="cardTop"><span class="plat">Facebook</span><span class="pill idle">Pendente</span></div><div class="cardNote">Página a confirmar · capturar URL oficial</div></div>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="margin-bottom:3px">O que mais levanta a nota agora</h2>
+  <div class="next">
+    <ol>
+      <li>Levar avaliações para o <strong>Thumbtack</strong> e <strong>criar o Yelp</strong> — duas citações fortes ainda faltando.</li>
+      <li>Publicar o <strong>schema LocalBusiness + https</strong> no site e conectar o Google Search Console.</li>
+      <li><strong>Conteúdo:</strong> mais Reels antes/depois pensados para salvar e compartilhar (ponto fraco atual).</li>
+      <li>Unificar a marca: usar sempre <strong>GCM Best Services Corp</strong> (aposentar "GCM Renovations Services").</li>
+    </ol>
+  </div>
+
+  <footer>
+    <span>GCM Best Services Corp — Scorecard de presença digital</span>
+    <span>Gerado em 01/11/2026</span>
+  </footer>
+</body>
+</html>
