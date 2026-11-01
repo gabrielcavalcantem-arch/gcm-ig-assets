@@ -49,6 +49,9 @@ GCM Best Services Corp
 
 ---
 
+## ⚠️ Yelp é EXCEÇÃO — não peça reviews lá
+O Yelp **esconde (unrecommends)** avaliações que detecta como solicitadas. Peça reviews apenas em **Google, Facebook e BBB**. No Yelp, apenas sinalize passivamente ("Find us on Yelp") — nunca mande o link pedindo avaliação.
+
 ## Boas práticas
 - **Responda TODAS as avaliações** (positivas e negativas) — o Google valoriza engajamento. Inclua cidade/serviço na resposta ("Thanks for trusting us with your Orlando driveway!").
 - Nunca compre/incentive avaliações falsas — risco de suspensão.

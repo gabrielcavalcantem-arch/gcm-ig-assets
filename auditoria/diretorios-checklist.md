@@ -24,7 +24,7 @@
 |---|---|---|---|
 | — | Google Business | ✅ Feito | Verificado, 4,9★ |
 | — | Instagram / Pinterest / Facebook | ✅ Feito | — |
-| 1 | **Yelp** | 🔴 Criar | Alto p/ IA + alimenta Apple Maps |
+| 1 | **Yelp** | 🟡 Existe · ajustar | Já tem conta (Gabriel). Fixes: nome→"Corp", ocultar endereço, finish setup. ⚠️ NÃO pedir reviews no Yelp (algoritmo esconde solicitadas) |
 | 2 | **Angi** | 🔴 Criar | Muito citado pela IA |
 | 3 | **HomeAdvisor** | 🔴 Criar | Mesmo grupo da Angi |
 | 4 | **Houzz** | 🟡 Reivindicar | Aparece em categoria; claim o perfil |
