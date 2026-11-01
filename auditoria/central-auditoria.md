@@ -40,12 +40,12 @@
 
 Legenda: ✅ ok · 🟡 ajustar · 🔴 pendente/crítico
 
-### Instagram — `@gcmbestservicescorp` ✅🟡
+### Instagram — `@gcmbestservicescorp` ✅ (PERFIL 100% OTIMIZADO)
 - **Métricas (01/nov):** 715 seguidores · 282 posts · **30K views/30 dias**
-- Nome ✅ · Usuário ✅ · Site na bio ✅
-- 🟡 Bio ainda genérica ("Construction Company / Building with precision and passion") — trocar p/ "paver driveways & patios"
-- 🟡 Links na bio: adicionar até 5 (Free Estimate, WhatsApp, Pinterest, Website)
-- Dados reais puxados via Windsor → ver `seo/diagnostico-instagram.md`
+- Nome ✅ · Usuário ✅ · Bio com palavra-chave de paver ✅ (atualizada)
+- **5 links na bio ✅:** Website · WhatsApp · Pinterest · Free Estimate · Google Reviews
+- 🟡 Opcional: renomear 1º link "GCM BEST SERVICES" → "Website" (caixa alta)
+- Próximo foco = **conteúdo**: mais Reels antes/depois pensados para save/share (ver `seo/diagnostico-instagram.md`)
 
 ### Pinterest — `@gcmbestservicescorp` ✅
 - Nome ✅ · Usuário ✅ (corrigido de @gcmrenovationsservices) · Bio ✅ (corrigida) · Site `https://` ✅
@@ -95,7 +95,7 @@ Coexistem dois nomes/domínios:
 1. ✅ ~~Criar/verificar Google Business Profile~~ — **JÁ EXISTE E VERIFICADO (4,9⭐)**. Agora é **otimizar** + pegar link de avaliação.
 2. 🔴 Pegar **URLs** de: Thumbtack, Facebook (empresa + pessoal)
 3. 🟡 Thumbtack: telefone `(407) 250-1948`, finalizar setup, pedir reviews
-4. 🟡 Instagram: trocar bio + adicionar os 5 links (incluir link de review do GBP)
+4. ✅ ~~Instagram: trocar bio + adicionar os 5 links~~ — **FEITO** (perfil 100% otimizado). Próximo = conteúdo (Reels antes/depois).
 5. 🟡 Pinterest: renomear quadro antigo
 6. 🔴 Decidir **nome oficial único** (Best Services vs Renovations)
 7. 🟡 Conectar **Search Console + GBP** no Windsor para auditar busca real
