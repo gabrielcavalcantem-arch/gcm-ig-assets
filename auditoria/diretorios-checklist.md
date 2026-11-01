@@ -28,7 +28,8 @@
 | 2 | **Angi** | 🔴 Criar | Muito citado pela IA |
 | 3 | **HomeAdvisor** | 🔴 Criar | Mesmo grupo da Angi |
 | 4 | **Houzz** | 🟡 Reivindicar | Aparece em categoria; claim o perfil |
-| 5 | **BBB** | 🔴 Criar | Selo de confiança |
+| 5 | **BBB** | 🟡 Enviado · aguardando análise | Submetido em 01/nov. ⚠️ Ao publicar, conferir se o NAP enviado bate com o canônico (nome c/ "Corp", tel, endereço, site). |
+| — | **Angi / HomeAdvisor** | 🔴 Bloqueado (segurança) | Tentativa via agente barrada por verificação. Fazer manualmente. |
 | 6 | **Bing Places** | 🔴 Criar | Fácil via Google |
 | 7 | **Apple Business Connect** | 🔴 Criar | Apple Maps |
 | 8 | **Nextdoor Business** | 🔴 Criar | Hiperlocal |
