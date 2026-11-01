@@ -10,7 +10,7 @@
   "description": "Locally owned paving contractor serving Orlando, Kissimmee, and Central Florida. We design and install paver driveways, patios, walkways, and pool decks.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "7914 Tumblestone Drive",
+    "streetAddress": "7914 Tumblestone Dr",
     "addressLocality": "Orlando",
     "addressRegion": "FL",
     "postalCode": "32819",

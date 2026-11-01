@@ -1,7 +1,7 @@
 # On-Page SEO — GCM Best Services Corp
 
 > Títulos e descrições em inglês (público dos EUA). Title ≤ 60 caracteres, meta ≤ 155.
-> NAP: GCM Best Services Corp · 7914 Tumblestone Drive, Orlando, FL 32819 · (407) 250-1948
+> NAP: GCM Best Services Corp · 7914 Tumblestone Dr, Orlando, FL 32819 · (407) 250-1948
 
 ## Como usar
 - **Title tag** = `<title>` da página (aba do navegador + título azul no Google).
