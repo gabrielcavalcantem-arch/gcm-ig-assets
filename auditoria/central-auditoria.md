@@ -30,7 +30,7 @@
 | Thumbtack | GCM Best Services Corp | ⚠️ pegar URL (Share profile) | a confirmar | 🔒 no gerenciador |
 | Facebook (empresa) | GCM Best Services Corp | ⚠️ pegar URL | a confirmar | 🔒 no gerenciador |
 | Facebook (pessoal) | Gabriel Medeiros Gcm | ⚠️ pegar URL | a confirmar | 🔒 no gerenciador |
-| Google Business Profile | — | ⚠️ não criado/verificado | a confirmar | 🔒 no gerenciador |
+| Google Business Profile | GCM Best Services Corp | ✅ **existe e verificado** (você gerencia) | a confirmar | 🔒 no gerenciador |
 | GoHighLevel (CRM) | — | repo: gcm-concrete-ghl-webhook | a confirmar | 🔒 no gerenciador |
 
 ---
@@ -63,9 +63,12 @@ Legenda: ✅ ok · 🟡 ajustar · 🔴 pendente/crítico
 - Duas referências: página "GCM Best Services Corp" + pessoal "Gabriel Medeiros Gcm"
 - ⚠️ URLs ainda não capturadas — confirmar se a página existe e pegar link
 
-### Google Business Profile 🔴 (PRIORIDADE MÁXIMA)
-- Ainda não criado/verificado — é a base do Map Pack
-- Configurar como Service Area Business (ocultar endereço, definir área)
+### Google Business Profile ✅ (JÁ EXISTE E VERIFICADO!)
+- **Status (01/nov):** verificado, gerenciado pelo dono · **4,9 estrelas** · **124 interações** · Força do perfil "Tudo certo!"
+- Correção: diagnóstico anterior assumiu (erradamente) que não existia, pois o GBP não está conectado a nenhuma ferramenta desta sessão.
+- 🟡 Próximo passo NÃO é criar — é **otimizar**: confirmar categoria principal `Paving contractor`, categorias secundárias, descrição 750 car., serviços, fotos semanais, Google Posts.
+- 🟡 Pegar o **link de avaliação** (Solicitar avaliação → compartilhar) para a bio do Instagram e os pedidos de review.
+- ⚠️ Confirmar que NAP do perfil bate 100% com o canônico (nome, telefone, site, área de atendimento).
 
 ---
 
@@ -88,13 +91,28 @@ Coexistem dois nomes/domínios:
 
 ## 🎯 Pendências para a auditoria do fim do dia
 
-1. 🔴 Criar/verificar **Google Business Profile** (base de tudo)
+1. ✅ ~~Criar/verificar Google Business Profile~~ — **JÁ EXISTE E VERIFICADO (4,9⭐)**. Agora é **otimizar** + pegar link de avaliação.
 2. 🔴 Pegar **URLs** de: Thumbtack, Facebook (empresa + pessoal)
 3. 🟡 Thumbtack: telefone `(407) 250-1948`, finalizar setup, pedir reviews
-4. 🟡 Instagram: trocar bio + adicionar os 5 links
+4. 🟡 Instagram: trocar bio + adicionar os 5 links (incluir link de review do GBP)
 5. 🟡 Pinterest: renomear quadro antigo
 6. 🔴 Decidir **nome oficial único** (Best Services vs Renovations)
 7. 🟡 Conectar **Search Console + GBP** no Windsor para auditar busca real
+
+---
+
+## 📊 Scorecard geral (revisado 01/nov)
+
+| Área | Nota | Observação |
+|---|---|---|
+| 📍 Google Business Profile | **8,0** | ✅ Verificado, 4,9⭐, 124 interações, "Tudo certo". Falta otimização fina. |
+| ⭐ Avaliações | **8,0** | 4,9⭐ no Google. Manter o fluxo de pedidos. |
+| 📱 Instagram / Social | **7,0** | 715 seg., 30K views/30d, público certo. Bio + save/share a melhorar. |
+| 🧩 NAP / Consistência | **6,0** | Muito melhor hoje; falta unificar marca e capturar URLs. |
+| 📌 Pinterest | **6,0** | Corrigido; pouco tráfego ainda. |
+| 🌐 Site / On-page | **4,0** | Schema não publicado, http/https, sem Search Console. |
+| 🔗 Backlinks / Citações | **3,5** | Plano pronto; execução no começo. |
+| **GERAL** | **≈ 7,0** | Corrigido de 4,5 → 7,0 após descobrir que o GBP existe e é forte. |
 
 ---
 
